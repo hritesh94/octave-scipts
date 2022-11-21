@@ -1,0 +1,18 @@
+T=input("Enter time");
+a=input("Enter amplitude");
+w=input("Enter omega");
+
+t=0:0.05:T;
+y=a*sin(w*t);
+subplot(2,1,1);
+plot(t,y,'-r')
+xlabel("time")
+ylabel("amplitude")
+grid on
+hold on
+subplot(2,1,2)
+stem(t,y,'og')
+xlabel('TIme')
+ylabel('amplitude')
+grid on
+hold on
