@@ -1,0 +1,6 @@
+t=-1:0.0001:1;
+unitstep=t>=0;
+plot(t,unitstep);
+axis([-1 2 -1 2])
+xlabel("Time");
+ylabel("Amplitude");
