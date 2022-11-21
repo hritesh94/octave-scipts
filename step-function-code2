@@ -1,0 +1,14 @@
+T=2;
+t=-T:0.01:0;
+y=0;
+plot(t,y);
+hold on;
+grid on;
+t=0:0.1:T;
+y=1;
+plot(t,y);
+hold on;
+grid on;
+axis ([-5 5 -5 5])
+xlabel("TIME")
+ylabel("AMPLITUDE")
